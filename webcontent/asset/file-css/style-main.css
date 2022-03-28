@@ -1,0 +1,13 @@
+@charset "ISO-8859-1";
+  .main3{
+  	background-image:url("../img/img-main/main3.jpg");
+  }
+   img {
+        width: 100%;
+        height: 100hv;
+    }
+@media (max-width: 786px) {
+	.text-content{
+		text-overflow: ellipsis;
+	}
+} 
