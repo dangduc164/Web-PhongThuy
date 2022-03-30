@@ -1,7 +1,7 @@
-@charset "ISO-8859-1";
+@charset "utf-8";
 
-footer {
-	background: rgba(0, 0, 0, 0) url("../img/footer.jpg") no-repeat scroll left top/cover;
+footer{
+	background-image: url("../img/footer.jpg");
 }
 
 a {
