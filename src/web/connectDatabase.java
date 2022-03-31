@@ -8,7 +8,7 @@ public class connectDatabase {
 	public static void main(String[] args) throws SQLException {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
-			String url="jdbc:mysql://localhost:3309/quanly_kh?useSSL=false";
+			String url="jdbc:mysql://localhost:3309/quanly_kh";
 			String user="root";
 			String password="dangduc164";
 			Connection connection=(Connection)DriverManager.getConnection(url, user, password);
