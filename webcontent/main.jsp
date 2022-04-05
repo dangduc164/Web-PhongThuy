@@ -12,7 +12,7 @@
 
 <body>
     <main> 
-        <div class="container-full">
+        <div class="container-full bg-secondary">
             <div class="main1">
                 <div id="demo" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
@@ -54,7 +54,7 @@
             
             <div class="main2 py-5 bg-dark">
             <div class="container text-light">
-            <p class=" h1 text-center p-2 ">Công cụ tính thần số học Online - Munity Team</p>
+            <p class=" h2 text-center p-2 "><span class="text-warning">Công cụ tính thần số học Online - Munity Team</span></p>
             <p class="h4"> Tính toán hàng chục nghìn phép tính thần số phức tạp cực nhanh chỉ sau 1 giây để cho ra các tổ hợp chỉ số mà không hề sai sót như tính tay.</p>
             <p class="h4"> Luận giải kết quả tra cứu được cá nhân hóa dựa vào nghiên cứu chuyên sâu của các chuyên gia Thần số học. </p>
             <form action="#" method="post">
@@ -131,10 +131,10 @@
         </div>
         </div>
            <div class="container justify-content-center">
-	            <div class="main3 py-5 ">
+	            <div class="main3 py-5 text-light">
 	                <div class="row">
 	                    <div class="col-md-6">
-	                        <h3 class="text-center"><span class="text-success"> Chào mừng bạn đến với </span></h3>
+	                        <h3 class="text-center"><span class="text-warning"> Chào mừng bạn đến với </span></h3>
 	                        <h2 class="text-center">PHONG THỦY MUTINY</h2>
 	                        <div class="text-content">
 	                        	<p>
@@ -157,7 +157,7 @@
 	            </div>
             </div>
             
-            <div class="main4 py-5 bg-scusse">
+            <div class="main4 py-5">
                 <div class="container">
                     <div class="text-center">
                         <h3 class="text-success">Trăm thấy không bằng một thử</h3>

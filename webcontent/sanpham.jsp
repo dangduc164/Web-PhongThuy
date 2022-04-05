@@ -11,9 +11,8 @@
     <link href="${pageContext.request.contextPath}/asset/css/bootstrap.min.css" rel="stylesheet">
 	<script src="${pageContext.request.contextPath}/asset/js/bootstrap.bundle.min.js"></script>
 	<script src="${pageContext.request.contextPath}/asset/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+	<link rel = " stylesheet "  href = " https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
      <link rel="stylesheet" href="asset/file-css/sanpham.css" />
      
@@ -23,8 +22,8 @@
 </head>
 
 <body>
-<main>
-    <div class="container text-center py-5">
+<main class="bg-secondary">
+    <div class="container text-center text-light">
         <p class="text-uppercase h2">MUTINY TEAM</p>
         <p class="text-uppercase h3">Bộ tứ ăn hại</p>
         <div id="mixedSlider">
@@ -32,7 +31,7 @@
                 <div class="item">
                     <div class="imgTitle">
                         <h2 class="blogTitle">Nguyễn Đăng Đức</h2>
-                        <img src="asset/img/sanpham/đức.jpg" alt="Nguyễn Đăng Đức" class="img-fluid
+                        <img src="${pageContext.request.contextPath}/asset/img/sanpham/đức.jpg" alt="Nguyễn Đăng Đức" class="img-fluid
                                 rounded-circle rounded-circle" />
                     </div>
                     <div class="itemTitle py-2">
@@ -46,7 +45,7 @@
                 <div class="item">
                     <div class="imgTitle">
                         <h2 class="blogTitle">Đỗ Khắc Vũ</h2>
-                        <img src="asset/img/sanpham/vũ.jpg" alt="Đỗ Khắc Vũ" class="img-fluid rounded-circle"
+                        <img src="${pageContext.request.contextPath}/asset/img/sanpham/vũ.jpg" alt="Đỗ Khắc Vũ" class="img-fluid rounded-circle"
                         />
                     </div>
                     <div class="itemTitle py-2 pt-2">
@@ -57,7 +56,7 @@
                 <div class="item">
                     <div class="imgTitle">
                         <h2 class="blogTitle">Phạm Thanh Sơn</h2>
-                        <img src="asset/img/sanpham/sơn.png" alt="Phạm Thanh Sơn" class="img-fluid rounded-circle" />
+                        <img src="${pageContext.request.contextPath}/asset/img/sanpham/sơn.png" alt="Phạm Thanh Sơn" class="img-fluid rounded-circle" />
                     </div>
                     <div class="itemTitle py-2 pt-2">
                         <p class="text-uppercase h5 fw-bold">Chuyên gia đá Ngọc
@@ -69,7 +68,7 @@
                 <div class="item">
                     <div class="imgTitle">
                         <h2 class="blogTitle">Nguyễn Đình Hùng</h2>
-                        <img src="asset/img/sanpham/hùng.jpg" alt="Nguyễn Đình Hùng" class="img-fluid rounded-circle" />
+                        <img src="${pageContext.request.contextPath}/asset/img/sanpham/hùng.jpg" alt="Nguyễn Đình Hùng" class="img-fluid rounded-circle" />
                     </div>
                     <div class="itemTitle py-2 pt-2">
                         <p class="text-uppercase h5 fw-bold">Chuyên gia phong thủy</p>
@@ -81,7 +80,7 @@
     </div>
 
     <div class="container justify-content-center">
-        <h2 class="mt-5 text-center">Sản Phẩm tham khảo</h2>
+        <h2 class="mt-5 text-center"><span class="text-warning">Sản Phẩm tham khảo</span></h2>
         <ul class="nav nav-tabs">
             <li class="active">
                 <a data-toggle="tab" href="#home">Tất cả sản phẩm</a>
@@ -101,11 +100,11 @@
                                     <div class="col-xs-12 col-sm-4 col-md-4">
                                         <div class="card">
                                             <a class="img-card" href="#">
-                                                <img src="https://bachkhoaphongthuy.com/wp-content/uploads/2020/05/cach-chon-vong-mat-da-phong-thuy-cho-nguoi-menh-thuy.jpg" class="img-fluid" />
+                                                <img src="${pageContext.request.contextPath}/asset/img/img-sanpham/vongtay6.jpg" class="img-fluid" />
                                             </a>
                                             <div class="card-content">
                                                 <h4 class="card-title">
-                                                    <a href="https://bachkhoaphongthuy.com/wp-content/uploads/2020/05/cach-chon-vong-mat-da-phong-thuy-cho-nguoi-menh-thuy.jpg">
+                                                    <a href="${pageContext.request.contextPath}/asset/img/img-sanpham/vongtay6.jpg">
                                                             Vòng lục bảo
                                                         </a>
                                                 </h4>
@@ -148,11 +147,11 @@
                                     <div class="col-xs-12 col-sm-4 col-md-4">
                                         <div class="card">
                                             <a class="img-card" href="#">
-                                                <img src="https://gomsubattrang360.com/wp-content/uploads/2019/12/chon-nhan-phong-thuy-cho-nam-menh-kim.jpg" class="img-fluid " />
+                                                <img src="${pageContext.request.contextPath}/asset/img/img-sanpham/nhan5.jpg " />
                                             </a>
                                             <div class="card-content">
                                                 <h4 class="card-title">
-                                                    <a href="https://gomsubattrang360.com/wp-content/uploads/2019/12/chon-nhan-phong-thuy-cho-nam-menh-kim.jpg">
+                                                    <a href="${pageContext.request.contextPath}/asset/img/img-sanpham/nhan5.jpg">
                                                             Nhẫn Tâm Động
                                                         </a>
                                                 </h4>
@@ -195,11 +194,11 @@
                                     <div class="col-xs-12 col-sm-4 col-md-4">
                                         <div class="card">
                                             <a class="img-card" href="#">
-                                                <img src="https://gomsuhcm.com/wp-content/uploads/2019/12/menh-thuy-deo-nhan-ngon-nao-04.jpg" class="img-fluid " />
+                                                <img src="${pageContext.request.contextPath}/asset/img/img-sanpham/3nhan6.jpg" class="img-fluid " />
                                             </a>
                                             <div class="card-content">
                                                 <h4 class="card-title">
-                                                    <a href="https://gomsuhcm.com/wp-content/uploads/2019/12/menh-thuy-deo-nhan-ngon-nao-04.jpg">
+                                                    <a href="${pageContext.request.contextPath}/asset/img/img-sanpham/ênhany6.jpg">
                                                             Nhẫn Sarfia Ngũ Sắc
                                                         </a>
                                                 </h4>
@@ -242,11 +241,11 @@
                                     <div class="col-xs-12 col-sm-4 col-md-4">
                                         <div class="card">
                                             <a class="img-card" href="#">
-                                                <img src="https://file.hstatic.net/1000092161/article/day_chuyen_da_thach_anh_toc_do-min_e06e0363eb5c459d9775f7281e9a1164_grande.jpg" class="img-fluid " />
+                                                <img src="${pageContext.request.contextPath}/asset/img/img-sanpham/day_chuyen2.jpg" class="img-fluid " />
                                             </a>
                                             <div class="card-content">
                                                 <h4 class="card-title">
-                                                    <a href="https://cf.shopee.vn/file/112b5bc3754815637142590a48d8a6bf">
+                                                    <a href="${pageContext.request.contextPath}/asset/img/img-sanpham/day_chuyen2.jpg">
                                                            Vòng cổ Thạch anh - Cáo Magic
                                                         </a>
                                                 </h4>
@@ -289,11 +288,11 @@
                                     <div class="col-xs-12 col-sm-4 col-md-4">
                                         <div class="card">
                                             <a class="img-card" href="#">
-                                                <img src="https://hncar.vn/wp-content/uploads/2021/04/vat-phong-thuy-tren-xe-o-to-4.png" class="img-fluid " />
+                                                <img src="${pageContext.request.contextPath}/asset/img/img-sanpham/kylan6.jpg" class="img-fluid " />
                                             </a>
                                             <div class="card-content">
                                                 <h4 class="card-title">
-                                                    <a href="http://www.fostrap.com/2016/03/bootstrap-3-carousel-fade-effect.html">
+                                                    <a href="${pageContext.request.contextPath}/asset/img/img-sanpham/kylan6.jpg">
                                                             Kì Lân Lục Sắc Thu hút tiền tài
                                                         </a>
                                                 </h4>
@@ -336,11 +335,11 @@
                                     <div class="col-xs-12 col-sm-4 col-md-4">
                                         <div class="card">
                                             <a class="img-card" href="#">
-                                                <img src="https://furnibuy.com/wp-content/uploads/2021/01/tranh-phong-thuy-menh-kim-cho-nguoi-menh-kim.jpg" class="img-fluid" />
+                                                <img src="${pageContext.request.contextPath}/asset/img/img-sanpham/tranh_rong8.jpg" class="img-fluid" />
                                             </a>
                                             <div class="card-content">
                                                 <h4 class="card-title">
-                                                    <a href="https://furnibuy.com/wp-content/uploads/2021/01/tranh-phong-thuy-menh-kim-cho-nguoi-menh-kim.jpg">
+                                                    <a href="${pageContext.request.contextPath}/asset/img/img-sanpham/tranh_rong8.jpg">
                                                             Tranh treo tường Ngọc Long Sơn
                                                         </a>
                                                 </h4>
@@ -555,11 +554,11 @@
                                     <div class="col-xs-12 col-sm-4">
                                         <div class="card">
                                             <a class="img-card" href="#">
-                                                <img src="https://furnibuy.com/wp-content/uploads/2021/01/amia-1689-tranh-menh-hoa-ma-dao-thanh-cong.jpg" class="img-fluid" />
+                                                <img src="${pageContext.request.contextPath}/asset/img/img-sanpham/tranhngua8.jpg" class="img-fluid" />
                                             </a>
                                             <div class="card-content">
                                                 <h4 class="card-title">
-                                                    <a href="https://furnibuy.com/wp-content/uploads/2021/01/amia-1689-tranh-menh-hoa-ma-dao-thanh-cong.jpg">
+                                                    <a href="${pageContext.request.contextPath}/asset/img/img-sanpham/tranhngua8.jpg">
                                                             Tranh treo tường Mã đáo thành công
                                                         </a>
                                                 </h4>
@@ -602,11 +601,11 @@
                                     <div class="col-xs-12 col-sm-4">
                                         <div class="card">
                                             <a class="img-card" href="#">
-                                                <img src="https://docungtamlinh.net/wp-content/uploads/2020/11/tranh-ca-chep-vuot-vu-mon.jpg" class="img-fluid " />
+                                                <img src="${pageContext.request.contextPath}/asset/img/img-sanpham/tranhca8.jpg" class="img-fluid " />
                                             </a>
                                             <div class="card-content">
                                                 <h4 class="card-title">
-                                                    <a href="https://docungtamlinh.net/wp-content/uploads/2020/11/tranh-ca-chep-vuot-vu-mon.jpg">
+                                                    <a href="${pageContext.request.contextPath}/asset/img/img-sanpham/tranhca8.jpg">
                                                            Cá chép hóa rồng - Con cháu xung túc
                                                         </a>
                                                 </h4>
@@ -650,11 +649,11 @@
                                     <div class="col-xs-12 col-sm-4">
                                         <div class="card">
                                             <a class="img-card" href="#">
-                                                <img src="https://furnibuy.com/wp-content/uploads/2021/01/tranh-phong-thuy-menh-kim-cho-nguoi-menh-kim.jpg" class="img-fluid" />
+                                                <img src="${pageContext.request.contextPath}/asset/img/img-sanpham/tranh_rong8.jpg" class="img-fluid" />
                                             </a>
                                             <div class="card-content">
                                                 <h4 class="card-title">
-                                                    <a href="https://furnibuy.com/wp-content/uploads/2021/01/tranh-phong-thuy-menh-kim-cho-nguoi-menh-kim.jpg">
+                                                    <a href="${pageContext.request.contextPath}/asset/img/img-sanpham/tranh_rong8.jpg">
                                                             Tranh treo tường Ngọc Long Sơn
                                                         </a>
                                                 </h4>
@@ -712,11 +711,11 @@
                                     <div class="col-xs-12 col-sm-4">
                                         <div class="card">
                                             <a class="img-card" href="#">
-                                                <img src="https://toplist.vn/images/800px/-148788.jpg" class="img-fluid" />
+                                                <img src="${pageContext.request.contextPath}/asset/img/img-sanpham/laban8.jpg" class="img-fluid" />
                                             </a>
                                             <div class="card-content">
                                                 <h4 class="card-title">
-                                                    <a href="https://toplist.vn/images/800px/-148788.jpg">
+                                                    <a href="${pageContext.request.contextPath}/asset/img/img-sanpham/laban8.jpg">
                                                            La Bàn phong thủy - bản chuẩn đầy đủ
                                                         </a>
                                                 </h4>
@@ -759,11 +758,11 @@
                                     <div class="col-xs-12 col-sm-4">
                                         <div class="card">
                                             <a class="img-card" href="#">
-                                                <img src="https://cms.lichngaytot.com/medias/standard/2019/8/21/treo-chuong-gio-phong-thuy-3.jpg" class="img-fluid " />
+                                                <img src="${pageContext.request.contextPath}/asset/img/img-sanpham/chuonggio2.jpg" class="img-fluid " />
                                             </a>
                                             <div class="card-content">
                                                 <h4 class="card-title">
-                                                    <a href="https://cms.lichngaytot.com/medias/standard/2019/8/21/treo-chuong-gio-phong-thuy-3.jpg">
+                                                    <a href="${pageContext.request.contextPath}/asset/img/img-sanpham/chuongio2.jpg">
                                                            Chuông Phong Nhĩ - Khắc tinh của gió xấu
                                                         </a>
                                                 </h4>
@@ -807,11 +806,11 @@
                                     <div class="col-xs-12 col-sm-4">
                                         <div class="card">
                                             <a class="img-card" href="#">
-                                                <img src="https://hncar.vn/wp-content/uploads/2021/04/vat-phong-thuy-tren-xe-o-to-4.png" class="img-fluid " />
+                                                <img src="${pageContext.request.contextPath}/asset/img/img-sanpham/kylan6.jpg" class="img-fluid " />
                                             </a>
                                             <div class="card-content">
                                                 <h4 class="card-title">
-                                                    <a href="http://www.fostrap.com/2016/03/bootstrap-3-carousel-fade-effect.html">
+                                                    <a href="${pageContext.request.contextPath}/asset/img/img-sanpham/kylan6.jpg">
                                                             Kì Lân Lục Sắc Thu hút tiền tài
                                                         </a>
                                                 </h4>

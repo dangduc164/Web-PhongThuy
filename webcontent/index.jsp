@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="${pageContext.request.contextPath}/asset/file-css/header.css" type="text/css" />
 	<script src="${pageContext.request.contextPath}/asset/js-file/header.js"></script>
     <link rel="stylesheet" href="${pageContext.request.contextPath}/asset/file-css/footer.css" type="text/css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="${pageContext.request.contextPath}/asset/jquery/jquery-3.6.0.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
     <link rel="icon" type="image/png" sizes="192x192" href="${pageContext.request.contextPath}/asset/img/favicon/android-icon-192x192.png">
 	<title>Phong Thủy Mutiny</title>
