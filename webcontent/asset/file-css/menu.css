@@ -1,0 +1,31 @@
+
+
+.navbar a {
+    color: azure;
+    transition-duration: 6s;
+    transition-property: transform;
+    transition-timing-function: ease-in;
+}
+
+
+#navbarNavDropdown ul li:hover {
+    color: azure;
+/*     transform: translateY(-10px);
+ */    box-shadow: 2px 2px 10px rgba(223, 235, 228, 0.733);
+}
+
+
+button:hover {
+    border: 0px;
+    box-shadow: 2px 2px 10px rgba(39, 41, 40, 0.733);
+}
+
+@media (max-width: 768px) {
+	
+.navbar a {
+    color: azure;
+/*     transition-duration: .5s;
+ */    transition-property: transform;
+    transition-timing-function: ease-in;
+}
+}

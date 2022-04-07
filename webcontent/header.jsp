@@ -31,8 +31,8 @@
 							<li><a href="#">Sản Phẩm</a></li>
 							<li><a href="#">Thông Tin</a></li>
 							<li><a href="#">Liên Hệ</a></li>
-							<li><a href="#"><i class="fa fa-shopping-cart fa-2x"></i></a></li>
-							<li><a href="${pageContext.request.contextPath}/login.jsp"><i class="fa fa-user fa-2x"></i></a></li>
+							<li><a href="#"><i class="fa fa-shopping-cart fa-1x"></i></a></li>
+							<li><a href="${pageContext.request.contextPath}/login.jsp"><i class="fa fa-user fa-1x"></i></a></li>
 						</ul>
 					</div>
 				</nav>

@@ -22,25 +22,13 @@
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="${pageContext.request.contextPath}/asset/img/img-main/slider.png" class="d-block w-100" >
-                            <div class="carousel-caption">
-                                <h3>Los Angeles</h3>
-                                <p>We had such a great time in LA!</p>
-                            </div>
+                            <img src="${pageContext.request.contextPath}/asset/img/img-main/silder.jpg" class="d-block" style="width:100%">
                         </div>
                         <div class="carousel-item">
-                            <img src="${pageContext.request.contextPath}/asset/img/img-main/slider2.png" class="d-block" style="width:100%">
-                            <div class="carousel-caption">
-                                <h3>Chicago</h3>
-                                <p>Thank you, Chicago!</p>
-                            </div>
+                            <img src="${pageContext.request.contextPath}/asset/img/img-main/slider2.jpg" class="d-block" style="width:100%">
                         </div>
                         <div class="carousel-item">
-                            <img src="${pageContext.request.contextPath}/asset/img/img-main/slider3.png" class="d-block" style="width:100%">
-                            <div class="carousel-caption">
-                                <h3>New York</h3>
-                                <p>We love the Big Apple!</p>
-                            </div>
+                            <img src="${pageContext.request.contextPath}/asset/img/img-main/slider5.png" class="d-block" style="width:100%">
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">

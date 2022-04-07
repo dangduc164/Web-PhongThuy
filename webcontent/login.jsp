@@ -49,8 +49,8 @@
           </div>
 
           <!-- Submit button -->
-          <button type="submit" class="btn btn-primary btn-lg btn-block">Login</button>
-		  <button type="submit" class="btn btn-primary btn-lg btn-block"><a href="${pageContext.request.contextPath}/sigin.jsp" class="text-light">Sigin</a></button>
+          <button type="submit" class="btn btn-primary btn-lg btn-block">Đăng Nhập</button>
+		  <button type="submit" class="btn btn-primary btn-lg btn-block"><a href="${pageContext.request.contextPath}/sigin.jsp" class="text-light" style="text-decoration:none;">Đăng Ký</a></button>
           <div class="divider d-flex align-items-center my-4">
             <p class="text-center fw-bold mx-3 mb-0 text-muted">OR</p>
           </div>

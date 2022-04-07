@@ -14,7 +14,7 @@
 	<link rel = " stylesheet "  href = " https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
-     <link rel="stylesheet" href="asset/file-css/sanpham.css" />
+     <link rel="stylesheet" href="${pageContext.request.contextPath}/asset/file-css/sanpham.css" />
      
     <link rel="stylesheet" href="${pageContext.request.contextPath}/asset/file-css/footer.css" type="text/css">
     
@@ -24,14 +24,14 @@
 <body>
 <main class="bg-secondary">
     <div class="container text-center text-light">
-        <p class="text-uppercase h2">MUTINY TEAM</p>
-        <p class="text-uppercase h3">Bộ tứ ăn hại</p>
+        <p class="text-uppercase h2"><span class="text-warning">MUTINY TEAM</span></p>
+        <p class="text-uppercase h3"><span class="text-warning">Bộ tứ ăn hại</span></p>
         <div id="mixedSlider">
             <div class="MS-content">
                 <div class="item">
                     <div class="imgTitle">
                         <h2 class="blogTitle">Nguyễn Đăng Đức</h2>
-                        <img src="${pageContext.request.contextPath}/asset/img/sanpham/đức.jpg" alt="Nguyễn Đăng Đức" class="img-fluid
+                        <img src="${pageContext.request.contextPath}/asset/img/img-main/duc.png" alt="Nguyễn Đăng Đức" class="img-fluid
                                 rounded-circle rounded-circle" />
                     </div>
                     <div class="itemTitle py-2">
@@ -45,7 +45,7 @@
                 <div class="item">
                     <div class="imgTitle">
                         <h2 class="blogTitle">Đỗ Khắc Vũ</h2>
-                        <img src="${pageContext.request.contextPath}/asset/img/sanpham/vũ.jpg" alt="Đỗ Khắc Vũ" class="img-fluid rounded-circle"
+                        <img src="${pageContext.request.contextPath}/asset/img/img-main/vu.png" alt="Đỗ Khắc Vũ" class="img-fluid rounded-circle"
                         />
                     </div>
                     <div class="itemTitle py-2 pt-2">
@@ -56,7 +56,7 @@
                 <div class="item">
                     <div class="imgTitle">
                         <h2 class="blogTitle">Phạm Thanh Sơn</h2>
-                        <img src="${pageContext.request.contextPath}/asset/img/sanpham/sơn.png" alt="Phạm Thanh Sơn" class="img-fluid rounded-circle" />
+                        <img src="${pageContext.request.contextPath}/asset/img/img-main/son.png" alt="Phạm Thanh Sơn" class="img-fluid rounded-circle" />
                     </div>
                     <div class="itemTitle py-2 pt-2">
                         <p class="text-uppercase h5 fw-bold">Chuyên gia đá Ngọc
@@ -68,7 +68,7 @@
                 <div class="item">
                     <div class="imgTitle">
                         <h2 class="blogTitle">Nguyễn Đình Hùng</h2>
-                        <img src="${pageContext.request.contextPath}/asset/img/sanpham/hùng.jpg" alt="Nguyễn Đình Hùng" class="img-fluid rounded-circle" />
+                        <img src="${pageContext.request.contextPath}/asset/img/img-main/hung.png" alt="Nguyễn Đình Hùng" class="img-fluid rounded-circle" />
                     </div>
                     <div class="itemTitle py-2 pt-2">
                         <p class="text-uppercase h5 fw-bold">Chuyên gia phong thủy</p>
@@ -83,7 +83,7 @@
         <h2 class="mt-5 text-center"><span class="text-warning">Sản Phẩm tham khảo</span></h2>
         <ul class="nav nav-tabs">
             <li class="active">
-                <a data-toggle="tab" href="#home">Tất cả sản phẩm</a>
+                <a data-toggle="tab" href="${pageContext.request.contextPath}/#home">Tất cả sản phẩm</a>
             </li>
             <li><a data-toggle="tab" href="#menu1">Đồ trang sức Phong Thủy</a></li>
             <li><a data-toggle="tab" href="#menu2">Tranh Phong Thủy</a></li>
@@ -397,11 +397,11 @@
                                     <div class="col-xs-12 col-sm-4 col-md-4">
                                         <div class="card">
                                             <a class="img-card" href="#">
-                                                <img src="https://bachkhoaphongthuy.com/wp-content/uploads/2020/05/cach-chon-vong-mat-da-phong-thuy-cho-nguoi-menh-thuy.jpg" class="img-fluid" />
+                                                <img src="${pageContext.request.contextPath}/asset/img/img-sanpham/vongtay6.jsp" class="img-fluid" />
                                             </a>
                                             <div class="card-content">
                                                 <h4 class="card-title">
-                                                    <a href="https://bachkhoaphongthuy.com/wp-content/uploads/2020/05/cach-chon-vong-mat-da-phong-thuy-cho-nguoi-menh-thuy.jpg">
+                                                    <a href="${pageContext.request.contextPath}/asset/img/img-sanpham/vongtay6.jsp">
                                                             Vòng lục bảo
                                                         </a>
                                                 </h4>
@@ -444,11 +444,11 @@
                                     <div class="col-xs-12 col-sm-4">
                                         <div class="card">
                                             <a class="img-card" href="#">
-                                                <img src="https://gomsubattrang360.com/wp-content/uploads/2019/12/chon-nhan-phong-thuy-cho-nam-menh-kim.jpg" class="img-fluid " />
+                                                <img src="${pageContext.request.contextPath}/asset/img/img-sanpham/nhan3.jsp" class="img-fluid " />
                                             </a>
                                             <div class="card-content">
                                                 <h4 class="card-title">
-                                                    <a href="https://gomsubattrang360.com/wp-content/uploads/2019/12/chon-nhan-phong-thuy-cho-nam-menh-kim.jpg">
+                                                    <a href="${pageContext.request.contextPath}/asset/img/img-sanpham/nhan3.jsp">
                                                             Nhẫn Tâm Động
                                                         </a>
                                                 </h4>
@@ -491,11 +491,11 @@
                                     <div class="col-xs-12 col-sm-4">
                                         <div class="card">
                                             <a class="img-card" href="#">
-                                                <img src="https://gomsuhcm.com/wp-content/uploads/2019/12/menh-thuy-deo-nhan-ngon-nao-04.jpg" class="img-fluid " />
+                                                <img src="${pageContext.request.contextPath}/asset/img/img-sanpham/3nhan6.jsp" class="img-fluid " />
                                             </a>
                                             <div class="card-content">
                                                 <h4 class="card-title">
-                                                    <a href="https://gomsuhcm.com/wp-content/uploads/2019/12/menh-thuy-deo-nhan-ngon-nao-04.jpg">
+                                                    <a href="${pageContext.request.contextPath}/asset/img/img-sanpham/3nhan6.jsp">
                                                             Nhẫn Sarfia Ngũ Sắc
                                                         </a>
                                                 </h4>
@@ -942,6 +942,6 @@
 	</footer>
 </body>
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-    <script src="asset/js-file/sanpham.js"></script>
+    <script src="${pageContext.request.contextPath}/asset/js-file/sanpham.js"></script>
 
 </html>
