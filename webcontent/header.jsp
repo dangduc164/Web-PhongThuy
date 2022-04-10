@@ -8,7 +8,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" /> -->
  <link rel="stylesheet" href="${pageContext.request.contextPath}/asset/file-css/header.css" type="text/css" />
-<script src="${pageContext.request.contextPath}/asset/js-file/header.js"></script>
+<script src="${pageContext.request.contextPath}/asset/js-file/header.js"></script>	
 <title>Phong Thủy Mutiny</title>
 </head>
 
@@ -30,7 +30,7 @@
 							<li><a href="#">Giới Thiệu</a></li>
 							<li><a href="#">Sản Phẩm</a></li>
 							<li><a href="#">Thông Tin</a></li>
-							<li><a href="#">Liên Hệ</a></li>
+							<li><a href="${pageContext.request.contextPath}/lienhe.jsp">Liên Hệ</a></li>
 							<li><a href="#"><i class="fa fa-shopping-cart fa-1x"></i></a></li>
 							<li><a href="${pageContext.request.contextPath}/login.jsp"><i class="fa fa-user fa-1x"></i></a></li>
 						</ul>

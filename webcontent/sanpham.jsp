@@ -82,12 +82,12 @@
     <div class="container justify-content-center">
         <h2 class="mt-5 text-center"><span class="text-warning">Sản Phẩm tham khảo</span></h2>
         <ul class="nav nav-tabs">
-            <li class="active">
-                <a data-toggle="tab" href="${pageContext.request.contextPath}/#home">Tất cả sản phẩm</a>
+            <li class="nav-item">
+                <a class="nav-link active" data-bs-toggle="tab" href="#home">Tất cả sản phẩm</a>
             </li>
-            <li><a data-toggle="tab" href="#menu1">Đồ trang sức Phong Thủy</a></li>
-            <li><a data-toggle="tab" href="#menu2">Tranh Phong Thủy</a></li>
-            <li><a data-toggle="tab" href="#menu3">Đồ trang trí Phong Thủy</a></li>
+            <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#menu1">Đồ trang sức Phong Thủy</a></li>
+            <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#menu2">Tranh Phong Thủy</a></li>
+            <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#menu3">Đồ trang trí Phong Thủy</a></li>
         </ul>
 
         <div class="tab-content">
@@ -388,6 +388,7 @@
                     </div>
                 </section>
             </div>
+            
             <div id="menu1" class="tab-pane fade">
                 <section class="wrapper">
                     <div class="container">
