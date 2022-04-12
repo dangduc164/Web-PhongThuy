@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=utf-8"
     pageEncoding="utf-8"%>
+    
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -23,7 +25,13 @@
 <body>
 
 		<header>
-		<!-- Messenger Plugin chat Code -->
+			<jsp:include page="header.jsp"></jsp:include>
+		</header>
+		<main>
+			<jsp:include page="main.jsp"></jsp:include>
+		</main>
+		<footer>
+				<!-- Messenger Plugin chat Code -->
     <div id="fb-root"></div>
 
     <!-- Your Plugin chat code -->
@@ -53,13 +61,51 @@
         fjs.parentNode.insertBefore(js, fjs);
       }(document, 'script', 'facebook-jssdk'));
     </script>
-			<jsp:include page="header.jsp"></jsp:include>
-		</header>
-		<main>
-			<jsp:include page="main.jsp"></jsp:include>
-		</main>
-		<footer>
-			
+    
+  <!--   back to top -->
+  <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
+
+<style>
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 15px;
+    right: 43px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+</style>
+
+
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
 		</footer>
 	
 </body>

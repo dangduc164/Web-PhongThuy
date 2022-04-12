@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=utf-8"
     pageEncoding="utf-8"%>
+    
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -20,45 +22,46 @@
         <img src="${pageContext.request.contextPath}/asset/img/img_login.jpg" class="img-fluid" alt="Phone image">
       </div>
       <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
-        <form>
-          <!-- Email input -->
-          <div class="form-outline mb-4">
-            <input type="email" id="form1Example13" class="form-control form-control-lg" />
-            <label class="form-label" for="form1Example13">Email address</label>
-          </div>
-
-          <!-- Password input -->
-          <div class="form-outline mb-4">
-            <input type="password" id="form1Example23" class="form-control form-control-lg" />
-            <label class="form-label" for="form1Example23">Password</label>
-          </div>
-
-          <div class="d-flex justify-content-around align-items-center mb-4">
-            <!-- Checkbox -->
-            <div class="form-check">
-              <input
-                class="form-check-input"
-                type="checkbox"
-                value=""
-                id="form1Example3"
-                checked
-              />
-              <label class="form-check-label" for="form1Example3"> Remember me </label>
-            </div>
-            <a href="#!">Forgot password?</a>
-          </div>
-
-          <!-- Submit button -->
-          <button type="submit" class="btn btn-primary btn-lg btn-block">Đăng Nhập</button>
-		  <button type="submit" class="btn btn-primary btn-lg btn-block"><a href="${pageContext.request.contextPath}/sigin.jsp" class="text-light" style="text-decoration:none;">Đăng Ký</a></button>
-          <div class="divider d-flex align-items-center my-4">
-            <p class="text-center fw-bold mx-3 mb-0 text-muted">OR</p>
-          </div>
-
-          <a class="btn btn-primary btn-lg btn-block" style="background-color: #3b5998" href="#!" role="button">
-            <i class="fab fa-facebook-f me-2"></i>Continue with Facebook</a>
-          <a class="btn btn-primary btn-lg btn-block" style="background-color: #55acee" href="#!" role="button">
-            <i class="fab fa-twitter me-2"></i>Continue with Twitter</a>
+      
+        <form method="post" action="login">
+	          <!-- Email input -->
+	          <div class="form-outline mb-4">
+	            <input type="email" id="email" name="email" class="form-control form-control-lg" />
+	            <label class="form-label" for="email">Email address</label>
+	          </div>
+	
+	          <!-- Password input -->
+	          <div class="form-outline mb-4">
+	            <input type="password" id="pass" name="pass" class="form-control form-control-lg" />
+	            <label class="form-label" for="pass">Password</label>
+	          </div>
+	
+	          <div class="d-flex justify-content-around align-items-center mb-4">
+	            <!-- Checkbox -->
+	            <div class="form-check">
+	              <input
+	                class="form-check-input"
+	                type="checkbox"
+	                value=""
+	                id="form1Example3"
+	                checked
+	              />
+	              <label class="form-check-label" for="form1Example3"> Remember me </label>
+	            </div>
+	            <a href="#!">Forgot password?</a>
+	          </div>
+		
+	          <!-- Submit button -->
+	          <button type="submit" name="login" id="login" class="btn btn-primary btn-lg btn-block">Đăng Nhập</button>
+			  <button type="submit" name="sigin" id="" class="btn btn-primary btn-lg btn-block"><a href="sigin.jsp" class="text-light" style="text-decoration:none;">Đăng Ký</a></button>
+	          <div class="divider d-flex align-items-center my-4">
+	            <p class="text-center fw-bold mx-3 mb-0 text-muted">OR</p>
+	          </div>
+	
+	          <a class="btn btn-primary btn-lg btn-block" style="background-color: #3b5998" href="#!" role="button">
+	            <i class="fab fa-facebook-f me-2"></i>Continue with Facebook</a>
+	          <a class="btn btn-primary btn-lg btn-block" style="background-color: #55acee" href="#!" role="button">
+	            <i class="fab fa-twitter me-2"></i>Continue with Twitter</a>
 
         </form>
       </div>
