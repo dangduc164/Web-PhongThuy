@@ -380,7 +380,7 @@
                                         </div>
                                     </div>
                                     <div class="col-xs-12 ">
-                                        <a herf="" class="btn btn-danger " href="#" role="button">XEM THÊM</a>
+                                        <a href="" class="btn btn-danger " href="#" role="button">XEM THÊM</a>
                                     </div>
                                 </div>
                             </div>
@@ -538,7 +538,7 @@
                                     </div>
 
                                     <div class="col-xs-12 ">
-                                        <a herf="#" class="btn btn-danger " href="#" role="button">XEM THÊM</a>
+                                        <a href="#" class="btn btn-danger " href="#" role="button">XEM THÊM</a>
                                     </div>
                                 </div>
                             </div>
@@ -695,7 +695,7 @@
                                         </div>
                                     </div>
                                     <div class="col-xs-12 ">
-                                        <a herf="#" class="btn btn-danger " href="#" role="button">XEM THÊM</a>
+                                        <a href="#" class="btn btn-danger " href="#" role="button">XEM THÊM</a>
                                     </div>
                                 </div>
                             </div>
@@ -852,7 +852,7 @@
                                         </div>
                                     </div>
                                     <div class="col-xs-12 ">
-                                        <a herf="#" class="btn btn-danger " href="#" role="button">XEM THÊM</a>
+                                        <a href="#" class="btn btn-danger " href="#" role="button">XEM THÊM</a>
                                     </div>
                                 </div>
                             </div>
