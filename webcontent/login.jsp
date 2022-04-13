@@ -23,7 +23,7 @@
       </div>
       <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
       
-        <form method="post" action="login">
+        <form method="" action="login">
 	          <!-- Email input -->
 	          <div class="form-outline mb-4">
 	            <input type="email" id="email" name="email" class="form-control form-control-lg" />

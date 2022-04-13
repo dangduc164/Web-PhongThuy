@@ -27,7 +27,7 @@
 					<div class="menu">
 						<ul>
 							<li><a href="${pageContext.request.contextPath}/index.jsp">Trang Chủ</a></li>
-							<li><a href="#">Giới Thiệu</a></li>
+							<li><a href="${pageContext.request.contextPath}/gioithieu.jsp">Giới Thiệu</a></li>
 							<li><a href="#">Sản Phẩm</a></li>
 							<li><a href="#">Thông Tin</a></li>
 							<li><a href="${pageContext.request.contextPath}/lienhe.jsp">Liên Hệ</a></li>
