@@ -7,16 +7,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="asset/css/bootstrap.min.css" rel="stylesheet">
-    <script src="asset/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="asset/file-css/style-main.css">
-    <script src="asset/js-file/main.js"></script>
     <title>Document</title>
 </head>
 
 <body>
-    <main>
-        <div class="container-full">
+    <main> 
+        <div class="container-full bg-secondary">
             <div class="main1">
                 <div id="demo" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
@@ -26,25 +22,13 @@
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="asset/img/img-main/slider.png" class="d-block" style="width:100%">
-                            <div class="carousel-caption">
-                                <h3>Los Angeles</h3>
-                                <p>We had such a great time in LA!</p>
-                            </div>
+                            <img src="${pageContext.request.contextPath}/asset/img/img-main/silder.jpg" class="d-block" style="width:100%">
                         </div>
                         <div class="carousel-item">
-                            <img src="asset/img/img-main/slider2.png" class="d-block" style="width:100%">
-                            <div class="carousel-caption">
-                                <h3>Chicago</h3>
-                                <p>Thank you, Chicago!</p>
-                            </div>
+                            <img src="${pageContext.request.contextPath}/asset/img/img-main/slider2.jpg" class="d-block" style="width:100%">
                         </div>
                         <div class="carousel-item">
-                            <img src="asset/img/img-main/slider3.png" class="d-block" style="width:100%">
-                            <div class="carousel-caption">
-                                <h3>New York</h3>
-                                <p>We love the Big Apple!</p>
-                            </div>
+                            <img src="${pageContext.request.contextPath}/asset/img/img-main/slider5.png" class="d-block" style="width:100%">
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
@@ -56,11 +40,89 @@
                 </div>
             </div>
             
+            <div class="main2 py-5 bg-dark">
+            <div class="container text-light">
+            <p class=" h2 text-center p-2 "><span class="text-warning">Công cụ tính thần số học Online - Munity Team</span></p>
+            <p class="h4"> Tính toán hàng chục nghìn phép tính thần số phức tạp cực nhanh chỉ sau 1 giây để cho ra các tổ hợp chỉ số mà không hề sai sót như tính tay.</p>
+            <p class="h4"> Luận giải kết quả tra cứu được cá nhân hóa dựa vào nghiên cứu chuyên sâu của các chuyên gia Thần số học. </p>
+            <form action="#" method="post">
+                <fieldset class="p-2 text-center ">
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <!-- Nameinput -->
+                            <div class="form-outline">
+                                <label class="form-label" for="name">Họ và tên</label>
+                                <input type="text" id="name" class="form-control" />
+                            </div>
+
+                        </div>
+                        <div class="col-md-6">
+                            <!-- sex -->
+                            <div class="form-outline text-white">
+                                <div class="row">
+                                    <label class="form-label" for="sex">Giới tính</label>
+
+                                    <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                                        <input type="radio" class="btn-check" name="sex" value="Nam" id="sexMale" autocomplete="off" checked>
+                                        <label class="btn btn-outline-primary text-white " for="sexMale">Nam</label>
+
+                                        <input type="radio" class="btn-check" name="sex" id="sexFemale" autocomplete="off" value="Nữ">
+                                        <label class="btn btn-outline-primary text-white" for="sexFemale">Nữ</label>
+
+                                        <input type="radio" class="btn-check" name="sex" id="sexOther" value="" autocomplete="off">
+                                        <label class="btn btn-outline-primary text-white" for="sexOther">Khác</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <hr />
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <!-- Date input -->
+                            <div class="form-outline">
+                                <label class="form-label" for="date">Ngày </label>
+                                <input type="number" id="date" class="form-control" required/>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <!-- Month input -->
+                            <div class="form-outline">
+                                <label class="form-label" for="month">Tháng </label>
+                                <input type="number" id="month" class="form-control" required/>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <!-- Year input -->
+                            <div class="form-outline">
+                                <label class="form-label" for="year">Năm sinh</label>
+                                <input type="number" id="year" class="form-control" required/>
+                            </div>
+                        </div>
+                    </div>
+                    <hr />
+
+                    <div class="row">
+                        <div class="col">
+                            <!-- Submit -->
+                            <div class="form-outline text-center">
+                                <button type="button" class="btn btn-primary">Xem kết quả</button>
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        </div>
            <div class="container justify-content-center">
-	            <div class="main2 py-5 ">
+	            <div class="main3 py-5 text-light">
 	                <div class="row">
 	                    <div class="col-md-6">
-	                        <h3 class="text-center"><span class="text-success"> Chào mừng bạn đến với </span></h3>
+	                        <h3 class="text-center"><span class="text-warning"> Chào mừng bạn đến với </span></h3>
 	                        <h2 class="text-center">PHONG THỦY MUTINY</h2>
 	                        <div class="text-content">
 	                        	<p>
@@ -72,21 +134,18 @@
 		                            toàn cho quý khách hàng. Các máy móc, thiết bị sử dụng tại đây đều là đời mới nhất, được nhập khẩu trực tiếp từ Hoa Kỳ, Châu Âu, Nhật Bản, Hàn Quốc…
 		                        </p>
 	                        </div>
-	                  
 	                        <div class="text-center">
 	                            <button class="btn btn-success me-2">Xem thêm ></button>
 	                        </div>
 	                    </div>
-	                    
 	                    <div class="col-md-6 py-3">
-	                        <img src="asset/img/img-main/ing-main.jpg" class="img-fluid">
+	                        <img src="${pageContext.request.contextPath}/asset/img/img-main/ing-main.jpg" class="img-fluid">
 	                    </div>
-	                   
 	                </div>
 	            </div>
             </div>
             
-            <div class="main3 py-5">
+            <div class="main4 py-5">
                 <div class="container">
                     <div class="text-center">
                         <h3 class="text-success">Trăm thấy không bằng một thử</h3>
@@ -97,18 +156,10 @@
                     </div>
                 </div>
             </div>
-            
-            <div class="main4 py-5">
-            	<div class="container">
-            		<div class="text-center">
-            			<h3 class="text-success">Cùng khám phá dịch vụ</h3>
-            			<h5>CÁC DỊCH VỤ CỦA CHÚNG TỐI</h5>	
-            			<p>Với slogan "Tỏa sáng nét đẹp Á Đông", Phong thủy MUTINY luôn nỗ lực hết mình để đem đến cho quý khách hàng nhữnng...</p>
-            		</div>
-            	</div>
-            </div>
         </div>
+        <jsp:include page="sanpham.jsp"></jsp:include>
     </main>
+
 
 </body>
 
